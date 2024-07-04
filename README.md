@@ -2,7 +2,9 @@
 
 This is the basic website which is creating a very powerful tool called Content Layer. With the help of Content Layer, you can create an incredible article website. It supports TypeScript and data modeling.
 
-![Incredible Article Website](path_to_your_image)
+![Incredible Article Website](/public/image.PNG)
+
+![Incredible Article Website](/public/image2.PNG)
 
 ## Getting Started
 
