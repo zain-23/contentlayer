@@ -8,7 +8,7 @@ function PostCard(post: Post) {
     <div className="mb-8">
       <Card>
         <CardHeader>
-          <CardTitle className="text-xl text-blue-700 hover:text-blue-900 space-y-1">
+          <CardTitle className="text-xl text-primary hover:text-primary/60 space-y-1">
             <Link href={post.url}>
               {post.title}
             </Link>
