@@ -6,13 +6,13 @@ import Link from "next/link";
 function PostCard(post: Post) {
   return (
     <div className="mb-8">
-      <Card>
+      <Card className="mix-blend-plus-lighter isolate opacity-60">
         <CardHeader>
-          <CardTitle className="text-xl text-primary hover:text-primary/60 space-y-1">
+          <CardTitle className="text-2xl text-primary hover:text-primary/60 space-y-1">
             <Link href={post.url}>
               {post.title}
             </Link>
-            <time className="block text-xs text-gray-600">
+            <time className="block text-lg text-gray-600">
               {format(post.date, "LLLL d, yyyy")}
             </time>
           </CardTitle>

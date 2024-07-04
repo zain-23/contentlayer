@@ -11,7 +11,7 @@ interface ParamsProps {
   };
 }
 
-export const getStaticParams = async ({ params }: ParamsProps) =>
+export const generateStaticParams = async () =>
   allPosts.map((p) => ({ slug: p._raw.flattenedPath }));
 
 export const generateMetadata = ({ params }: ParamsProps) => {
